@@ -49,15 +49,20 @@ class Objeto(object):
     ojos = Ojo()
     pelos = Pelo()
 def flotar(self):
-    pass
+    return (12)
+
 class Dedo(object):
-    longitud = ""
-    forma = ""
-    color = ""
+    longitud = "12"
+    forma = "15"
+    color = "11"
+
 class Pie(object):
-    forma = ""
-    color = ""
+    forma = "144"
+    color = "99"
     dedos = Dedo()
+    def amputar(self_):
+        return ("te ha cortado un pie")
+
 # NuevoObjeto sí hereda de otra clase: Objeto
 class NuevoObjeto(Objeto):
     pie = Pie()

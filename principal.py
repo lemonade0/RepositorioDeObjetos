@@ -15,13 +15,11 @@ print (et.color)
 #print(variable)
 #print(objeto.otro_metodo())
 
-objeto = Antena()
+objeto = NuevoObjeto()
 print(objeto.color)
 objeto.color = "Blue"
-variable = objeto.saltar()
-    return
-print(variable)
-print(objeto.flotar())
 
-objeto = NuevoObjeto()
-print(pie)
+variable = objeto.pie.amputar()
+print(variable)
+
+
