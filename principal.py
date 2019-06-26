@@ -22,4 +22,9 @@ objeto.color = "Blue"
 variable = objeto.pie.amputar()
 print(variable)
 
+#Llamada a clase ejercicio 1
+
+
+
+
 
