@@ -50,6 +50,7 @@ print(esteban.saltar())
 
 
 #print(Reloj.hora,Reloj.minuto,Reloj.segundo)
+
 hora = int(input("dame la hora :" ))
 if hora < 0 or hora > 24:
     print("Parametro de error en la hora")

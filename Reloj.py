@@ -18,4 +18,20 @@ def set__hora(self, hora=0, minuto=0, segundo=0):
     self.minuto = minuto
     self.segundo = segundo
 
+def comprobar(self, hora, minuto, segundo):
+    comprobar = False
 
+while comprobar == False:
+    hora = int(input("dame la hora"))
+    minuto = int(input("dame la minuto"))
+    segundo = int(input("dame la segundo"))
+
+if 0< hora < 25 and 0<minuto<60 and 0<segundo<60:
+        return False
+    else:
+        return True
+
+def set_hora(self, hora, minutos, segundos):
+    self.hora = hora
+    self.minutos = minutos
+    self.segundos = segundos
